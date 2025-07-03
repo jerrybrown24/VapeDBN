@@ -76,7 +76,7 @@ with tab4:
     today_trends = trends_df[trends_df['date']==today]
     top = today_trends.sort_values('mentions', ascending=False).head(5)
     st.table(top[['flavor','mentions']])
-    st.markdown('### Today's Exclusive')
+    st.markdown("### Today's Exclusive")
     st.subheader('Custard Kunafa')
 
 # Compliance
